@@ -6,7 +6,7 @@
 body{
     width: 1440px;
     margin:0 auto;
-    font-family: 'Open Sans', sans-serif;
+
 }
 header,.footer-menus{
     background-color: rgb(18, 16, 16);
@@ -48,4 +48,53 @@ header input{
     color: black;
     font-size: 20px;
     cursor: pointer;
+}
+/* footer */
+.footer-product{
+  display: flex;
+  justify-content: space-between;
+padding:0 20px ;
+background-color: rgb(45, 41, 41);
+color: #fff;
+height: 200px;
+
+}
+.contact, .info ,.support{
+    margin-top:30px;
+}
+.footer-product h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.footer-product h4{
+margin: 15px 0;
+}
+.icon i{
+    font-size: 30px;
+}
+.info i:nth-child(2){
+    padding:0 15px;
+}
+.info i:nth-child(4){
+    padding:0 15px;
+}
+.form-footer{
+    display: flex;
+}
+.form-footer input{
+    border: none;
+    background-color: black;
+    padding: 10px;
+    width: 250px;
+}
+.form-footer button{
+    background-color: burlywood;
+    width: 150px;
+    color: white;
+    border: none;
+}
+.form-footer input:focus{
+    outline: none;
+    color: white;
 }
